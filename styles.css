@@ -16,23 +16,31 @@ header {
 }
 
 nav {
-    justify-content: center;
+    display: flex;
+    justify-content: center;   
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    flex-direction: row;
     gap: 15px;
-    padding: 0 auto;
     margin: 0 auto;
+    width: 80%;
+    padding-right: 40px;
+    flex-direction: row;
+    white-space: nowrap;
 }
 
 nav button {
-    background-color: #2A324B;
-    padding-inline: 10px;
-    padding-block: 10px;
+    border: none;
+    padding-inline: 40px;
+    padding-block: 20px;
     color: #fff;
+    background-color: #2A324B;
+    min-height: 100%;
+    font-size: 20px; 
 }
 
 nav button.active {
