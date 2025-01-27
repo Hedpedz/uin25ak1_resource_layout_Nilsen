@@ -89,3 +89,12 @@ main {
 #resources a:hover {
     text-decoration: underline;
 }
+
+
+@media sceen and(min width; 750px;) {
+    main nav#categories {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+}
